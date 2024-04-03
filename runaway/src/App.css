@@ -28,16 +28,18 @@
     align-items: center;
     justify-content: space-between;
     min-height: 90px;
+    height: 150px;
   }
   .navbar-menu-container {
     display: none;
   }
   .navbar-links-container a {
-    margin-right: 3rem;
+    margin-right: 5rem;
     text-decoration: none;
+    margin-bottom: 0%;
     color: black;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 550;
   }
   .primary-button {
     padding: 0.9rem 1.75rem;
