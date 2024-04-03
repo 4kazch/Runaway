@@ -1,63 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-html{
-    background-color: rgb(66, 201, 201);
-}
-.signin-page {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #e2c4c4;
-    text-align: center; /* Centering content inside the div */
-  }
-  
- .signin-page h1 {
-    margin-bottom: 20px;
-    text-align: center; /* Centering the heading */
-  }
-  
-.signin-page label {
-    display: block;
-    margin-bottom: 5px;
-    text-align: left; /* Aligning labels to the left */
-  }
-  
-  .signin-page input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .signin-page button[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
- .signin-page button[type="submit"]:hover {
-    background-color: #0056b3;
-=======
-=======
->>>>>>> dba3d43a0772fa2036bb7f2c126d4b191707ecda
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Reem Kufi", sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
   }
   img {
     max-width: 100%;
@@ -480,9 +425,6 @@ html{
     .about-background-image-container {
       display: none;
     }
-<<<<<<< HEAD
->>>>>>> dba3d43a0772fa2036bb7f2c126d4b191707ecda
-=======
->>>>>>> dba3d43a0772fa2036bb7f2c126d4b191707ecda
+
   }
   
