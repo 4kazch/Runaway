@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 * {
     margin: 0;
     padding: 0;
@@ -29,16 +28,18 @@
     align-items: center;
     justify-content: space-between;
     min-height: 90px;
+    height: 150px;
   }
   .navbar-menu-container {
     display: none;
   }
   .navbar-links-container a {
-    margin-right: 3rem;
+    margin-right: 5rem;
     text-decoration: none;
+    margin-bottom: 0%;
     color: black;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 550;
   }
   .primary-button {
     padding: 0.9rem 1.75rem;
@@ -429,133 +430,3 @@
 
   }
   
-=======
-/* Global Styles */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Navigation Styles */
-nav {
-  height: 80px;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 16px;
-}
-
-/* Create Post Page Styles */
-.createPostPage {
-  background-image: url('./../public/Yellowish\ Newspaper.jpg');
-  height: calc(100vh - 80px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cpContainer {
-  max-width: 500px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  color: #333;
-}
-
-.cpContainer h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.cpContainer label {
-  font-size: 18px;
-}
-
-.inputGp input,
-.inputGp textarea {
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  padding: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
-.cpContainer button {
-  height: 40px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-}
-
-/* Login Page Styles */
-.loginPage {
-  height: calc(100vh - 80px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loginPage p {
-  font-size: 20px;
-}
-
-.login-with-google-btn {
-  cursor: pointer;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
-  background-color: #fff;
-  color: #333;
-  transition: background-color 0.3s, box-shadow 0.3s;
-}
-
-.login-with-google-btn:hover {
-  background-color: #f0f0f0;
-}
-
-/* Home Page Styles */
-.homePage {
-  padding-top: 20px;
-}
-
-.homePage .post {
-  width: 100%;
-  max-width: 600px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(234, 232, 232, 0.1);
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.post .postHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.postHeader .title {
-  font-size: 20px;
-}
-
-.deletePost button {
-  font-size: 20px;
-  cursor: pointer;
-}
->>>>>>> Stashed changes
