@@ -7,7 +7,10 @@ import CreatePost from './components/CreatePost';
 import Signin from './components/SigninPage';
 import Chat from './components/Chat';
 import { signOut } from 'firebase/auth';
+import Home2 from './components/Home2';
 import "./App.css"
+import Logo from "./Assets/RunawayPreview.png"
+import Navbar from './Components_home/Navbar';
 
 const App = () => {
   const [user] = useAuthState(auth);
@@ -22,28 +25,7 @@ const App = () => {
   };
 
   return (
-    <Router>
-      <nav className="bg-gray-800 p-4 flex justify-between items-center">
-        <div>
-          <Link to="/" className="text-white mr-4">Home</Link>
-          {!isAuth ? (
-            <Link to="/signin" className="text-white">Login</Link>
-          ) : (
-            <>
-              <Link to="/createpost" className="text-white mr-4">Create Post</Link>
-              <Link to="/chat" className="text-white mr-4">Chat</Link>
-              <button onClick={signUserOut} className="text-white">Log Out</button>
-            </>
-          )}
-        </div>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home isAuth={isAuth} />} />
-        <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />
-        <Route path="/signin" element={<Signin setIsAuth={setIsAuth} />} />
-        <Route path="/chat" element={<Chat />} />
-      </Routes>
-    </Router>
+    <Navbar />
   );
 };
 
